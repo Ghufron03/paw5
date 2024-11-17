@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Praktikum ReactJS</title>
+    <!-- Mengimpor React -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <!-- Mengimpor ReactDOM -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <!-- Mengimpor Babel -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <style>
+    .header {
+      background-color: orange;
+      color: white;
+      padding: 10px;
+      font-family: Lato, sans-serif;
+    }
+  </style>
+  <body>
+    <body>
+        <div id="app"></div>
+        <script type="text/babel">
+        let header = (
+        <header className="header">
+        <h1>Belajar menggunakan JSX pada React JS</h1>
+        <p>Tutorial React JS</p>
+        </header>
+        );
+        ReactDOM.render(header, 
+       document.getElementById("app"));
+        </script>
+  </body>
+</html>
